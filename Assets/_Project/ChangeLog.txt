@@ -1,0 +1,27 @@
+MODIFICHE APPORTARE AL PROGETTO ORIGINALE M4W4D4
+
+--- Modifiche Script ---
+- Aggiunto Singleton come script templete;
+- Cambiato lo script AudioManager con un Singleton;
+- Aggiunto costruttore statico ad AudioManager;
+- Cambiato l'iscrizione agli eventi dell'AudioManager aggiungendo direttamente via script la chiamata al metodo;
+- Impostato che dopo la sconfitta o la vittoria la musica ricomincia dopo il caricamento della scena scelta;
+- AudioManager, se viene istanziato, il suo prefab viene preso da Resources;
+- Cambiato PlayerCoin con il Singleton CoinManager;
+- Cambiata l'iscrizione a CoinManager da inspector a via script per evitare che i riferimenti vengano cancellati se CoinManager venisse ristanziato, o problemi al cambio scena;
+- Salvataggio in script delle monete raccolte ad ogni completamento di livello;
+- Ogni tipo di ostacolo può essere attivato quando tutte le monete sono state raccolte;
+- Aggiunto CinemachineFreeLook;
+- Quando si cambia colore dal MainMenu NON capita più che il nuovo colore sia uguale al precedente;
+- Se durante la sconfitta o la vittoria è aperto il menu delle opzioni, si chiude e non resta più in sovraimpressione;
+- Aprendo le opzioni il gioco va in pausa;
+- Le opzioni si aprono anche premendo Tab (per esportazione in WebGL);
+- Adattato il cambiamento delle Opzioni con la Cinemachine;
+- Aggiunto LifeManager per mantenere il livello della vita coerente durante il passaggio di scena;
+- I cubi si spostano in modo più semplice (sfruttano il principio del cono di visione ...);
+- Aggiornata la Hierarchy per renderla più ordinata e leggibile;
+- Altre correzioni minori;
+
+--- Modifiche Level Design ---
+- Create diverse scene per far apprendere al giocatore le meccaniche un po' alla volta;
+- Corretto la scena Demo con le nuove funzioni
