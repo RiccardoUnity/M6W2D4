@@ -23,5 +23,10 @@ MODIFICHE APPORTARE AL PROGETTO ORIGINALE M4W4D4
 - Altre correzioni minori;
 
 --- Modifiche Level Design ---
-- Create diverse scene per far apprendere al giocatore le meccaniche un po' alla volta;
-- Corretto la scena Demo con le nuove funzioni
+- Create diverse scene per far apprendere al giocatore le meccaniche di gioco un po' alla volta;
+- Corretto la scena Demo con le nuove funzioni;
+- Collegata la scena Demo all'ultimo livello come scena Bonus;
+- Aggiunto nelle scene nuove Light Probe Group e Reflection Probe;
+- Create le Lightmap di ciascuna scena nuova;
+- Lo shader del labirinto è stato impostato in modo che renderizzi su entrambi i lati delle facce delle mesh;
+- I prefab del labirinto sono statici;

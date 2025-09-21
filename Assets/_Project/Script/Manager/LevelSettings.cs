@@ -49,6 +49,7 @@ public class LevelSettings : MonoBehaviour
     {
         _mainLight.color = CM.GetLightSceneColor();
         _unlit.color = CM.GetSceneColor();
+        _unlit.SetColor("_EmissionColor", CM.GetSceneColor());
         onChangeColor.Invoke();
     }
 
