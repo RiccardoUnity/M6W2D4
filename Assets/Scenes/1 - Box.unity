@@ -1165,6 +1165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527983795283499649, guid: e58101f6b50015944aac185e5b46a43d,
         type: 3}
+      propertyPath: _timeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527983795283499649, guid: e58101f6b50015944aac185e5b46a43d,
+        type: 3}
       propertyPath: onTimeFinish.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -2462,7 +2467,7 @@ PrefabInstance:
     - target: {fileID: 9013476314852699539, guid: fc5705c15afb5fa469d10bc12901f335,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7264757e-14
+      value: -6.726477e-14
       objectReference: {fileID: 0}
     - target: {fileID: 9013476314852699539, guid: fc5705c15afb5fa469d10bc12901f335,
         type: 3}

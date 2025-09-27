@@ -1562,6 +1562,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527983795283499649, guid: e58101f6b50015944aac185e5b46a43d,
         type: 3}
+      propertyPath: _timeMax
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527983795283499649, guid: e58101f6b50015944aac185e5b46a43d,
+        type: 3}
       propertyPath: onTimeFinish.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
       value: 1
       objectReference: {fileID: 0}
